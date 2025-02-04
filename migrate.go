@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/megur0/golang-migrate-postgres/migrate/database"
-	"github.com/megur0/golang-migrate-postgres/migrate/multierror"
-	"github.com/megur0/golang-migrate-postgres/migrate/source"
+	"github.com/megur0/golang-migrate-postgres/database"
+	"github.com/megur0/golang-migrate-postgres/multierror"
+	"github.com/megur0/golang-migrate-postgres/source"
 
-	iurl "github.com/megur0/golang-migrate-postgres/migrate/internal/url"
+	iurl "github.com/megur0/golang-migrate-postgres/internal/url"
 )
 
 // DefaultPrefetchMigrations sets the number of migrations to pre-read

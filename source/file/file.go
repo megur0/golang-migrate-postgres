@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/megur0/golang-migrate-postgres/migrate/source"
-	"github.com/megur0/golang-migrate-postgres/migrate/source/iofs"
+	"github.com/megur0/golang-migrate-postgres/source"
+	"github.com/megur0/golang-migrate-postgres/source/iofs"
 )
 
 func init() {

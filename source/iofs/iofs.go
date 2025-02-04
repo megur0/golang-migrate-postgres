@@ -11,7 +11,7 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/megur0/golang-migrate-postgres/migrate/source"
+	"github.com/megur0/golang-migrate-postgres/source"
 )
 
 type driver struct {

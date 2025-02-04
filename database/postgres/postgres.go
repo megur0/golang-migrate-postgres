@@ -17,10 +17,10 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/megur0/golang-migrate-postgres/migrate"
-	"github.com/megur0/golang-migrate-postgres/migrate/database"
-	"github.com/megur0/golang-migrate-postgres/migrate/database/multistmt"
-	"github.com/megur0/golang-migrate-postgres/migrate/multierror"
+	migrate "github.com/megur0/golang-migrate-postgres"
+	"github.com/megur0/golang-migrate-postgres/database"
+	"github.com/megur0/golang-migrate-postgres/database/multistmt"
+	"github.com/megur0/golang-migrate-postgres/multierror"
 
 	"github.com/lib/pq"
 )

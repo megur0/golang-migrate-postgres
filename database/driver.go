@@ -9,7 +9,7 @@ import (
 	"io"
 	"sync"
 
-	iurl "github.com/megur0/golang-migrate-postgres/migrate/internal/url"
+	iurl "github.com/megur0/golang-migrate-postgres/internal/url"
 )
 
 var (
